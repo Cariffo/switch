@@ -8,7 +8,7 @@ Switch(config)# hostname ALS2
 Switch(config-if-range)# interface range GigabitEthernet 0/1 - 2
 Switch(config-if-range)# shutdown
 2. Use multiple class C 192.168.X.0/24 networks as required for this SBA.
-3. Configure the Fa0/11 link between DLS1 and DLS2 as a Layer 3 link and assign a network to it.
+3. Configure the Fa0/11 link between DLS1 and DLS2 as a Layer 3 link and assign a network to it./n
 [DLS1] Switch(config)# interface Fa0/11
 [DLS1] Switch(config-if)# no switchport
 [DLS1] Switch(config-if)# ip address 192.168.0.1 255.255.255.0
